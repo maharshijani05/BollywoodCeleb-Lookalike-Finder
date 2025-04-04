@@ -42,7 +42,7 @@ A fun and interactive web app that uses deep learning to tell you which Bollywoo
 
 1. *Clone the Repository*
    bash
-   git clone https://github.com/your-username/bollywood_lookalike.git
+   git clone https://github.com/maharshijani05/BollywoodCeleb-Lookalike-Finder.git
    cd bollywood-lookalike-finder
    
 
