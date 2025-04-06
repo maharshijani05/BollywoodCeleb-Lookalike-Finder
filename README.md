@@ -21,6 +21,13 @@ A fun and interactive web app that uses deep learning to tell you which Bollywoo
 - *Similarity Metric*: Scikit-learn (Cosine Similarity)
 - *UI Enhancements*: PIL, Custom CSS
 
+## 📽️ Video Demonstration
+
+[![Watch the demo](assets/video_thumbnail.png)](https://www.youtube.com/watch?v=GFYtXO7PSo4 "Bollywood Lookalike Finder Demo")
+
+> 📺 Click the image above to watch the video demonstration on YouTube.
+
+
 ## 🖼 Sample Output
 
 <p align="center">
