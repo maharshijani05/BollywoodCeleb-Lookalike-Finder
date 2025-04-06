@@ -9,7 +9,7 @@ A fun and interactive web app that uses deep learning to tell you which Bollywoo
 - 📊 *Similarity Calculation* using Cosine Similarity
 - 🧠 Pre-trained embeddings for fast results
 - 🎨 Side-by-side image generation with resemblance score
-- 📅 Downloadable comparison image
+- 🗕 Downloadable comparison image
 - 📢 Shareable results
 
 ## 📦 Tech Stack
@@ -29,38 +29,41 @@ A fun and interactive web app that uses deep learning to tell you which Bollywoo
 
 ## 📁 Project Structure
 
-
+```
 ├── app.py                  # Main Streamlit app
 ├── embedding.pkl           # Precomputed facial embeddings
 ├── filenames.pkl           # Corresponding celebrity image paths
 ├── uploads/                # Uploaded user images
 ├── comparison_results/     # Output comparison images
 ├── requirements.txt        # Project dependencies
-
+```
 
 ## ⚙ Setup Instructions
 
 1. *Clone the Repository*
-   bash
-   git clone https://github.com/maharshijani05/BollywoodCeleb-Lookalike-Finder.git
-   cd bollywood-lookalike-finder
-   
+```bash
+git clone https://github.com/maharshijani05/BollywoodCeleb-Lookalike-Finder.git
+cd bollywood-lookalike-finder
+```
 
 2. *Create & Activate Virtual Environment*
-   bash
-   python -m venv venv
-   source venv/bin/activate      # On Windows: venv\Scripts\activate
-   
+```bash
+python -m venv venv
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+```
 
 3. *Install Dependencies*
-   bash
-   pip install -r requirements.txt
-   
+```bash
+pip install -r requirements.txt
+```
 
 4. *Run the App*
-   bash
-   streamlit run app.py
-   
+```bash
+streamlit run app.py
+```
 
 ## 📝 Requirements
 
@@ -83,4 +86,5 @@ Make sure you have the following installed:
 
 ---
 
-*Made with ❤ by Maharshi Jani*
+*Made with ❤ by Maharshi Jani*
+
